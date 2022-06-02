@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <!--Import Google Icon Font-->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+  <!--Let browser know website is optimized for mobile-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link type="image/png" sizes="16x16" rel="icon" href="icon.png">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+    rel="stylesheet">
+  <!--My style-->
+  <link type="text/css" rel="stylesheet" href="style.css" media="screen,projection" />
+</head>
+
+<body>
+  <div class="wrap">
+
+    <label for="toggle" class="btn-dark-light"></label>
+    <input type="checkbox" id="toggle" class="visually-hidden">
+
+    <div class="content">
+      <div class="content-layout">
+        <header>
+          <nav class="nav-wrapper">
+            <a href="/" class="nav-logo">Logo</a>
+            <ul class="nav-menu">
+              <li><a href="#home">home</a></li>
+              <li><a href="#about">about</a></li>
+              <li><a href="#article">menu</a></li>
+              <li><a href="#contacts">contacts</a></li>
+            </ul>
+          </nav>
+        </header>
+
+        <main>
+          <section id="home">
+            <h4 class="section"> Section Typography</h4>
+
+            <h1> Title h1</h1>
+            <h2> Title h2</h2>
+            <h3> Title h3</h3>
+            <h4> Title h4</h4>
+            <h5> Title h5</h5>
+            <h6> Title h6</h6>
+            <a href="#1">Link 1</a>
+            <a href="#2">Link 2</a>
+            <a href="#3">Link 3</a>
+            <p> Paragraf. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla lorem arcu, mattis vitae
+              imperdiet ut, efficitur ut est.</p>
+            <p>
+              <u> Lorem ipsum dolor sit amet</u>
+            </p>
+            <p>
+              <s>Lorem ipsum dolor sit amet</s>
+            </p>
+            <p>
+              <em> Lorem ipsum dolor sit amet </em>
+            </p>
+            <p class="f-letter">
+              <strong> Lorem ipsum dolor sit amet </strong>
+            </p>
+            <p>
+              <code> Lorem ipsum dolor sit amet </code>
+            </p>
+            <p>
+              <pre> Lorem ipsum <mark>dolor</mark> sit amet 
+                hasellus lectus turpis, 
+                aliquet nec maximus et, eleifend non leo.
+              </pre>
+            </p>
+
+
+          </section>
+
+          <hr>
+
+          <section id="about">
+            <h4 class="section"> Section Lists</h4>
+
+            <h5> Numeric list</h5>
+            <ol>
+              <li>Item 1</li>
+              <li>Item 2</li>
+              <li>Item 3</li>
+              <li>Item 4</li>
+              <li>Item 5</li>
+            </ol>
+
+            <h5> Unordered list</h5>
+            <ul>
+              <li>Item 1</li>
+              <li>Item 2</li>
+              <li>Item 3</li>
+              <li>Item 4</li>
+              <li>Item 5</li>
+            </ul>
+
+            <h5> Nested list</h5>
+            <ul>
+              <li>Coffee</li>
+              <li>Tea
+                <ul>
+                  <li>Black tea</li>
+                  <li>Green tea</li>
+                </ul>
+              </li>
+              <li>Milk</li>
+            </ul>
+
+            <h5> Description list</h5>
+            <dl>
+              <dt>Coffee</dt>
+              <dd>Black hot drink</dd>
+              <dt>Milk</dt>
+              <dd>White cold drink</dd>
+            </dl>
+
+          </section>
+
+          <table>
+            <tr>
+              <th>Month</th>
+              <th>Savings</th>
+              <th>Total price</th>
+            </tr>
+            <tr>
+              <td>January</td>
+              <td>$100</td>
+              <td>$300</td>
+            </tr>
+            <tr>
+              <td>February</td>
+              <td>$80</td>
+              <td>$150</td>
+            </tr>
+          </table>
+
+          <hr>
+
+
+          <section id="article">
+            <h4 class="section"> Section Media</h4>
+
+            <img class="img" src="unsplash-1.jpg" alt="travel">
+            <img class="img" src="plain.png" alt="plain">
+
+
+            <h3>Photo Card</h3>
+            <div class="card-container">
+
+              <div class="card">
+                <img src="pizza-1.jpg" alt="Food">
+                <div class="card-container center">
+                  <p>The Italian / Austrian Alps</p>
+                </div>
+              </div>
+
+              <div class="card">
+                <img src="food-1.jpg" alt="Food">
+                <div class="card-container center">
+                  <p>The Italian / Austrian Alps</p>
+                </div>
+              </div>
+
+              <div class="card">
+                <img src="food-1.jpg" alt="Food">
+                <div class="card-container center">
+                  <p>The Italian / Austrian Alps</p>
+                </div>
+              </div>
+            </div>
+
+            <iframe width="853" height="480" src="https://www.youtube.com/embed/LYwaBpL6njk"
+              title="YouTube video player" frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen></iframe>
+
+          </section>
+
+          <hr>
+
+          <section id="contacts">
+            <h4 class="section"> Section Forms</h4>
+
+            <h2>Responsive Form</h2>
+            <p>Resize the browser window to see the effect. When the screen is less than 600px wide, make the two
+              columns stack on top of each other instead of next to each other.</p>
+
+            <div class="container">
+              <form action="/action_page.php">
+                <div class="row">
+                  <div class="col-25">
+                    <label for="fname">First Name</label>
+                  </div>
+                  <div class="col-75">
+                    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-25">
+                    <label for="lname">Last Name</label>
+                  </div>
+                  <div class="col-75">
+                    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-25">
+                    <label for="country">Country</label>
+                  </div>
+                  <div class="col-75">
+                    <select id="country" name="country">
+                      <option value="australia">Australia</option>
+                      <option value="canada">Canada</option>
+                      <option value="usa">USA</option>
+                    </select>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-25">
+                    <label for="subject">Subject</label>
+                  </div>
+                  <div class="col-75">
+                    <textarea id="subject" name="subject" placeholder="Write something.."
+                      style="height:200px"></textarea>
+                  </div>
+                </div>
+                <br>
+                <div class="row">
+                  <input type="submit" value="Submit">
+                </div>
+              </form>
+            </div>
+
+            <button class="btn btn-create"> create </button>
+            <button class="btn btn-cancel"> cancel </button>
+            <!-- HTML !-->
+            <button class="btn" role="button">Button Send</button>
+
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2329.8881180713493!2d30.539957941255576!3d50.445556000443496!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40d4cfadc90187cf%3A0xc7e20457ad70b064!2z0JzQsNGA0LjQuNC90YHQutC40Lkg0L_QsNGA0Lo!5e0!3m2!1sru!2sua!4v1654104888176!5m2!1sru!2sua"
+              width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </section>
+        </main>
+
+        <footer class="footer-wrapper">
+          <div class="footer-content">
+            <div class="footer-row">
+              <div class="footer-col-left">
+                <h5>Footer Content</h5>
+                <div>You can use rows and columns here to organize your footer content.</div>
+                <div class="footer-link"><a href="tel:+6494461709">+6494461709</a></div>
+                <div class="footer-link"><a href="mailto:mail@example.com">mail@example.com</a></div>
+              </div>
+              <div class="footer-col-right">
+                <h5>Меню</h5>
+                <ul class="footer-menu">
+                  <li><a href="#home">home</a></li>
+                  <li><a href="#about">about</a></li>
+                  <li><a href="#article">menu</a></li>
+                  <li><a href="#contacts">contacts</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="footer-copyright">
+            <div class="footer-copyright-text">
+              © 2022 Copyright Text
+              <a href="#!">More Links</a>
+            </div>
+          </div>
+        </footer>
+      </div>
+
+
+    </div>
+  </div>
+
+  </div>
+</body>
+
+</html>
